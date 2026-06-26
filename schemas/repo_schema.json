@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Repository",
+  "description": "Schema for GitHub repository data",
+  "type": "object",
+  "properties": {
+    "name": { "type": "string" },
+    "full_name": { "type": "string" },
+    "description": { "type": ["string", "null"] },
+    "html_url": { "type": "string", "format": "uri" },
+    "stars": { "type": "integer", "minimum": 0 },
+    "forks": { "type": "integer", "minimum": 0 },
+    "open_issues": { "type": "integer", "minimum": 0 },
+    "language": { "type": ["string", "null"] },
+    "updated_at": { "type": "string", "format": "date-time" },
+    "pushed_at": { "type": "string", "format": "date-time" },
+    "score": { "type": "number" },
+    "license": { "type": ["string", "null"] },
+    "topics": { "type": "array", "items": { "type": "string" } }
+  },
+  "required": ["name", "full_name", "html_url", "stars", "forks", "open_issues"]
+}

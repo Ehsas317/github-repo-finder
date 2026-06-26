@@ -1,0 +1,27 @@
+# Default Configuration for GitHub Repo Finder
+
+# Ranking Weights
+ranking:
+  star_weight: 0.40
+  recency_weight: 0.30
+  fork_weight: 0.15
+  health_weight: 0.15
+
+# API Settings
+api:
+  base_url: "https://api.github.com"
+  per_page: 30
+  max_retries: 3
+  timeout: 10
+
+# Caching Settings
+cache:
+  enabled: true
+  db_path: "~/.github_repo_finder/cache.db"
+  ttl_hours: 24
+
+# Output Settings
+output:
+  default_mode: "markdown"
+  max_results: 10
+  compact_desc_length: 100
