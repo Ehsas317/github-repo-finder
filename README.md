@@ -101,3 +101,9 @@ We welcome contributions! Please see `CONTRIBUTING.md` for details on how to get
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+---
+
+## Connect with me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ehsassethi)
